@@ -1,0 +1,303 @@
+/*blue: #2542b7;
+takki: #C35A3B;
+green #3D6A10;
+blue: #2542B7
+darker-blue: #0B1E6A
+light-green: #48840D */
+
+/*------AÃ°al TÃ¶g-------------------------------------------------------------------*/
+body{
+	width: 100%;
+	margin: 0 auto;
+	background-color: black;
+	background-image: url('../img/batman3.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.MainRow{
+	background-color: white;
+	height: 100%;
+	padding-top: 20px;
+}
+.top-bar,.top-bar-section,.row.collapse,.top-bar-section .has-form,li.has-form.hide-for-medium-down.width,footer,.top-bar.expanded .title-area,input#submit.signup,.top-bar-section li a:not(.button)  {
+	background-color: #2542b7;
+}
+.button.alert,.buttonSlider{
+	background-color: #E60505;
+}
+.buttonSlider:hover {
+	background-color: #B80202;
+}
+.top-bar-section li a:not(.button):active,.top-bar-section ul li:hover > a  {
+background:  #0B1E6A;
+}
+.Heading{
+	background-color: #2542B7;
+	margin-top: 0px;
+}
+.Heading h5{
+	color: white;
+}
+.inline{
+	display: inline;
+}
+.imgScale{
+	width: 235px;
+	height: 317px;
+}
+#inline div{
+	display: inline-block;
+}
+.goDown{
+	font-size: 180%;
+}
+.rating {
+	margin:0px;
+	padding: 0px;
+	float: left;
+}
+.s_right {
+	margin-left: -1px !important;
+}
+#notLoggedIn{
+	position: relative;
+	top: 25px;
+	right: 30px;
+}
+.width{
+	width: 100px;
+}
+label{
+	display: inline-block;
+}
+#passwordS{
+	float: right;
+}
+.star{
+	display: inline-block;
+	padding-right: 1px;
+}
+fieldset{
+	padding:0px;
+	padding-top: 10px;
+}
+.moveRight{
+	position: relative;
+	left: 30px;
+}
+/*---------Margin, Padding, float og fl. TÃ¶g--------------------------------------------------*/
+.floatleft {
+	float: left;
+	padding: 10px;
+}
+.Left{
+	float: left;
+}
+.Right{
+	float: right;
+}
+.NoPadding{
+	padding: 0px;
+}
+.paddingTop{
+	padding-top: 10px;
+}
+.paddingRight{
+	padding-right: 8px;
+}
+.noMargin{
+	margin: 0px;
+}
+.DatMargin{
+	width: 49%; 
+}
+div.row.RowMargin{
+	margin-bottom: 10px;
+}
+.MarginBottom{
+	margin-bottom: 10px;
+}
+#password{
+	margin-bottom: 0px;
+}
+.LeftPadding{
+	padding-left: 0.438em;
+}
+.noLeftPadding{
+padding-left: 0px;
+}
+#Submit{
+	margin-top: 10px;
+}
+p.pFooter{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.TitleRating h2,ul,hr,.top-bar{
+	margin: 0px;
+}
+.marginTop{
+	margin-top: 14px;
+}
+.row .row {
+margin-left: 0em;
+margin-right: 0em;
+}
+.paddingSide{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.center{
+	text-align: center;
+}
+.ImgPadding{
+	/*padding-left: 0px;
+	padding-right: 7px;*/
+	text-align: center;
+	padding: 0px;
+}
+.width {
+    width: 400px;
+    padding: 0;
+}
+.margin {
+    margin: 0 auto;
+}
+
+/* ----------- Navigation/Footer Bar --------------------------------------------------------------------------*/
+a.register{
+	background-color:  #2542b7;
+}
+footer{
+	border-top: 1px solid;
+	color: white;
+    font-family: "Courier New";
+}
+#submit {
+    display: block;
+    top: 0px;
+    margin: 0px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: #111111;
+    border: none;
+    height: 45px;
+    font-size: 0.8125em;
+    width: 66px;
+}
+#SpanLitur, #result{
+	font-size: 80%;
+}
+.TitleRating li ul, .TitleRating li ul h2{
+	display: inline;
+}
+.top-bar-section .has-form {
+    padding: 0;
+}
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+border-right: solid 1px #17329C;
+border-left: solid 1px #0D237A;
+}
+.top-bar-section .divider, .top-bar-section [role="separator"] {
+border-bottom: solid 1px #17329C;
+border-top: solid 1px #0D237A;
+}
+.top-bar-section ul {
+background: #2542b7;
+}
+.topHeight,ul.left{
+	height: 29px;
+}
+input[type="text"].navInput,input#username,input#password,.navStuffHeight,.top-bar input#search,input#first_name, input#last_name, input#signUpPassword, input#confirmPassword{
+height: 28px;
+}
+.top-bar-section li a:not(.button):hover,input#submit.signup:hover  {
+background-color: #0B1E6A;
+}
+/* Result Ãºr search bar */
+ul#results {
+	display: none;
+	margin-top: 0px;
+	border-bottom: 1px solid white;
+
+}
+ul#results li {
+	cursor: pointer;
+	border-top: 1px solid #cdcdcd;
+	transition: background-color .3s ease-in-out;
+	-moz-transition: background-color .3s ease-in-out;
+	-webkit-transition: background-color .3s ease-in-out;
+	line-height: 1em;
+}
+ul#results li:first-child {
+	border-top: 1px solid white;
+}
+ul#results li h3, ul#results li h4 {
+	font-size: 1.1em;
+	color: white;
+	display: inline;
+}
+/* Movie Pages -----------------------------------------------------------------------------------------*/
+table{
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+.user{
+	color: #6AADFA;
+}
+
+.toplist {
+	font-size: 0.8em;
+	list-style-type: decimal;
+	margin: 0;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+#check{
+	float: left;
+position: absolute;
+margin-left: -40px;
+margin-top: 10px;
+}
+
+/* Trash Bin ------------------------------------------------------------------------------------------- */
+ul li{
+	list-style-type: none;
+}
+li{
+	list-style-type: none;
+}
+.lightgrey{
+	color: lightgrey;
+}
+.orbit-timer {
+	display: none;
+}
+.buttonSlider{
+	margin: 0px;
+	padding: 7px;
+	border-radius: 2px;
+}
+#comment {
+	width: 600px;
+	height: 70px;
+	resize: none;
+}
+/* Password Strenght-------------------------------------------------------------------------------------- */
+.short{
+	color:red;
+}
+.weak{
+	color:orange;
+}
+.good{
+	color: green;
+}
+.strong{
+	color:blue;
+}
+/* Password Strenght END */
+
+/* Review system */
+.rating-container { margin-top: 10px; }
