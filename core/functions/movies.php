@@ -4,7 +4,7 @@ function movie_data($movieID)
 {
 	try{
 	//  82.148.66.15   GRU_H5   foxyboxy1337
-	$pdo = new PDO('mysql:host=10.200.10.24;dbname=gru_h5_movies', 'GRU_H5', 'foxyboxy1337');
+	$pdo = new PDO('mysql:host=localhost;dbname=gru_h5_movies', 'root', '');
 
 	$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
